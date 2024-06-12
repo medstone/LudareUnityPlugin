@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6787086713380708030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6787086713380708031}
+  - component: {fileID: 6787086713380708016}
+  - component: {fileID: 2879655742210591129}
+  m_Layer: 0
+  m_Name: PlatformSelectMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6787086713380708031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787086713380708030}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.20941, y: 204.52194, z: -675.6003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6787086713380708016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787086713380708030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 912dd3a0dcb12674eb6e4a1b3f7dfdab, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 55418aa73145bbd4baebabc7a2262582, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &2879655742210591129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787086713380708030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2703046212064a24a9f34957e2e2193b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformDoc: {fileID: 6787086713380708016}
+  ludareLoginPrefab: {fileID: 1433890314325794013, guid: e17a3f55a1c15cb45aa7800f13c34cfe, type: 3}
+  platformIcons:
+  - {fileID: 2800000, guid: 25313ba5d8d11414a895a9bd15eecb29, type: 3}
+  - {fileID: 2800000, guid: 46b5b8dd452a4444ca377f5042c52fe0, type: 3}
+  - {fileID: 2800000, guid: 699586a9dc7202e4db96a09d1ff5a97a, type: 3}
